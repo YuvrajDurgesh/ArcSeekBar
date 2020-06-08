@@ -1,0 +1,2 @@
+include ':app', ':arcseekbar'
+rootProject.name='ArcSeekBarExample'

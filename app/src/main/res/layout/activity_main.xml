@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <com.yuvrajdurgesh.arcseekbar.ArcSeekBar
+        android:id="@+id/arcSeekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:angleTextSize="10sp"
+        app:arcColor="#4a4a4a"
+        app:arcWidth="4dp"
+        app:arcProgressColor="@color/md_blue_500"
+        app:progressWidth="4dp"
+        app:roundEdges="true"
+        app:textColor="#000"
+        app:textProgressColor="@color/md_blue_500"
+        app:bottomText="Temperature"
+        app:bottomTextColor="@color/md_blue_500"
+        app:centralTextColor="@color/md_grey_500"
+        app:tickColor="#4a4a4a"
+        app:tickIntervals="15"
+        app:tickLength="10dp"
+        app:tickOffset="18dp"
+        app:tickProgressColor="@color/md_blue_500"
+        app:ticksBetweenLabel="two"
+        app:touchInside="false"
+        app:setValue="45"
+        app:minValue="-10"
+        app:maxValue="60"
+        app:ordinalIndicator="°"
+        app:centerTextAsValue="true"
+        app:centralTextSize="20sp"
+        app:bottomTextSize="18sp"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
