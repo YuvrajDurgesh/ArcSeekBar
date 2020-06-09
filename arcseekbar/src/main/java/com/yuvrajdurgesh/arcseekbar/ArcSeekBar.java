@@ -465,6 +465,7 @@ public class ArcSeekBar extends View {
         if (mOnArcSeekBarChangeListener != null) {
             mOnArcSeekBarChangeListener.onProgressChanged(this, convertAngleToValue(mAngle), fromUser);
         }
+        
         updateThumbPosition();
         invalidate();
     }
