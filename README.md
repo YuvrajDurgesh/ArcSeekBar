@@ -23,9 +23,9 @@ Library dependency
       
   
 # Features 
-  Semi circular Seekbar
-  Custom minimum and maximum range value
-  Enable/disable option
+  Semi circular Seekbar<br>
+  Custom minimum and maximum range value<br>
+  Enable/disable option<br>
   Customization of all it's value through XML or you can do by programatically
   
   # Uses
