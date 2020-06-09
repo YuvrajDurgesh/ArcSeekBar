@@ -18,7 +18,7 @@ Add remote marvel URL
 Library dependency
 
     dependencies {
-              implementation 'com.github.YuvrajDurgesh:ArcSeekBar:1.0.0'
+              implementation 'com.github.YuvrajDurgesh:ArcSeekBar:1.0.1'
       }
       
   
