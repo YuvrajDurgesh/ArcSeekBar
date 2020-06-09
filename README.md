@@ -58,7 +58,6 @@ Library dependency
         app:minValue="-10"
         app:maxValue="60"
         app:ordinalIndicator="°"
-        <!-- if you want to show central text as a progress value use this -->
         app:centerTextAsValue="true"
         app:centralTextSize="20sp"
         app:bottomTextSize="18sp"/>
