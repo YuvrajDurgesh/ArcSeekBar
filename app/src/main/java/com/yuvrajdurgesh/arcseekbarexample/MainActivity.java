@@ -3,6 +3,7 @@ package com.yuvrajdurgesh.arcseekbarexample;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+import android.util.Log;
 
 import com.yuvrajdurgesh.arcseekbar.ArcSeekBar;
 
@@ -14,12 +15,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
         arcSeekBar = findViewById(R.id.arcSeekbar);
 
         arcSeekBar.setOnArcSeekBarChangeListener(new ArcSeekBar.OnArcSeekBarChangeListener() {
             @Override
             public void onProgressChanged(ArcSeekBar ArcSeekBar, int progress, boolean fromUser) {
-
             }
 
             @Override
